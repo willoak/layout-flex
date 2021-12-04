@@ -104,7 +104,8 @@ li {
   flex: 2 1 300px;
   padding: 0 10px;
 }
-.sobre-info h1 {
+.sobre-info h1,
+.produtos h1 {
   font-size: 36px;
   font-weight: bold;
   margin-bottom: 10px;
@@ -116,4 +117,15 @@ li {
 .sobre-img {
   flex: 1 1 160px;
   margin: 0 10px;
+}
+
+.produtos-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+}
+
+.produtos-item {
+  flex: 1 1 175px; /* 175px precisa ser adicionado, se deixar zero (0) não funciona no safari*/
+  margin: 10px;
 }
